@@ -18,13 +18,19 @@ button:active{
     scale: 0.7;
     background-color: blue;
 }
-.container{
+.calc{
     height: 900px;
     width: 700px;
     background-color: rgb(240, 171, 171);
     border-radius: 30px;
     box-shadow:  5px 5px 5px 5px;
     position: relative;
+    margin-left: 130x;
+}
+.container{
+    height: 900px;
+    width: 700px;
+    
 }
 .container .inputbox input{
     position: absolute;
