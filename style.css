@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(107, 107, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+button{
+    height: 75px;
+    width: 75px;
+    border-radius: 20px;
+    background-color: bisque;
+    font-size: 50px;
+    color: rgb(14, 92, 7);
+    transition: 1s;
+}
+button:active{
+    scale: 0.7;
+    background-color: blue;
+}
+.container{
+    height: 900px;
+    width: 700px;
+    background-color: rgb(240, 171, 171);
+    border-radius: 30px;
+    box-shadow:  5px 5px 5px 5px;
+    position: relative;
+}
+.container .inputbox input{
+    position: absolute;
+    height: 100px;
+    width:600px;
+    top: 30px;
+    right: 40px;
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 10px;
+    pointer-events: none;
+}
+ .cbox button{
+    position: absolute;
+    top: 200px;
+    left: 70px;
+}
+.firstclm {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
+.firstclm button{
+    margin: 40px ;
+}
+.secondclm {
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+.secondclm button{
+    margin: 80px 40px;
+}
+.thirdclm{
+    display: flex;
+    position: absolute;
+    top: 530px;
+    left: 30px;
+
+}
+.thirdclm button{
+    margin: 90px 40px;
+}
+.forthclm{
+    display: flex;
+    position: absolute;
+    top: 650px;
+    left: 30px;
+}
+.forthclm button{
+    margin: 100px 40px;
+}
